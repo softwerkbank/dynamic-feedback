@@ -1,0 +1,25 @@
+{
+  "teamMembers": [
+    {
+      "id": 1,
+      "lastName": "Doe",
+      "firstName": "John",
+      "job": "Software Engineer",
+      "level": "Senior"
+    },
+    {
+      "id": 2,
+      "lastName": "Smith",
+      "firstName": "Jane",
+      "job": "Scrum Master",
+      "level": "Professional"
+    },
+    {
+      "id": 3,
+      "lastName": "Johnson",
+      "firstName": "Bob",
+      "job": "Software Engineer",
+      "level": "Junior"
+    }
+  ]
+}
