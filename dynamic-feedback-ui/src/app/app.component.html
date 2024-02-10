@@ -1,2 +1,14 @@
-<h1>Dynamic Feedback</h1>
+<p-menubar [model]="menuItems">
+  <ng-template pTemplate="start">
+    <div class="flex-row">
+      <div class="flex-container">
+        <p-image src="assets/logo.png" alt="Dynamic Feedback Logo" width="75"> </p-image>
+      </div>
+    </div>
+  </ng-template>
+
+</p-menubar>
 <app-team-member-card [content]="teamMember"></app-team-member-card>
+
+
+<router-outlet></router-outlet>
