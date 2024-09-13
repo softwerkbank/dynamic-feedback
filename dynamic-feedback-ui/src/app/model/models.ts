@@ -3,7 +3,8 @@ export interface TeamMember {
   firstName: string,
   lastName: string,
   jobTitle: string,
-  jobLevel: JobLevel
+  jobLevel: JobLevel,
+  progress: number
 }
 
 export enum JobLevel {

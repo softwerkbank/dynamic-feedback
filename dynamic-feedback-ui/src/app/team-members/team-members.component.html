@@ -1,0 +1,10 @@
+<!-- team-leader.component.html -->
+<div class="team-leader-page">
+  <h2>Teammitglieder und Feedback-Fortschritt</h2>
+
+  <div class="p-grid">
+    <div class="p-col-12 p-md-6 p-lg-4" *ngFor="let member of teamMembers">
+      <app-team-member-card [content]="member"></app-team-member-card>
+    </div>
+  </div>
+</div>

@@ -1,3 +1,11 @@
-<p-card header="{{ content?.firstName + ' ' + content?.lastName}}" subheader=" {{content?.jobTitle}}" [style]="{ width: '360px'}">
-
+<p-card styleClass="team-member-card">
+  <ng-template pTemplate="header">
+    <div class="team-member-header">
+      <h3>{{ content?.firstName + ' ' + content?.lastName }}</h3>
+      <p>{{content?.jobTitle}}</p>
+    </div>
+  </ng-template>
+  <ng-template pTemplate="content">
+    <p-progressBar [value]="content?.progress"></p-progressBar>
+  </ng-template>
 </p-card>
